@@ -1,0 +1,259 @@
+*  {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar {
+    background-color: black;
+    width: 350px;
+    border-radius: 1rem;
+
+}
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    padding: 0 1.5rem 0 1.5rem ;    
+    overflow: auto;
+}
+.music-player {
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.nav {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.nav1 a {
+    font-size: 1rem;
+    margin-left: 1rem;
+
+}
+.nav1 i {
+    font-size: 1rem;
+}
+
+.nav1{
+    line-height: 2.5rem;
+    opacity: 0.8;
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+
+}
+
+.a123{
+    background-color: #121212;
+}
+
+.nav1:hover {
+    opacity: 1;
+
+}
+.libery {
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    height: 100%;
+     padding: 0.5rem 0.75rem 0.5rem 0.75rem; */
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background-color: #121212;
+}
+.your {
+    background-color: #121212;
+}
+.lib-op1{
+    background-color: #121212 ;/* padding: 0.5rem 0.75rem; */
+}
+.lib-op1 img {
+    height: 1.25rem;
+    width: 1.25rem; }
+.libery-box{
+    background-color: #121212;
+}
+.box1 {
+    background-color: #232323;
+    border-radius: 0.75rem;
+    height: 8rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.8rem 1rem;
+    line-height: 2rem;
+
+} 
+.boxp1 {
+    background-color: #232323;
+    font-size: 1rem;
+    font-weight: 500;
+}   
+
+.boxp2 {
+    background-color: #232323;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+.badge {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 100px;
+    font-weight: 700;
+    padding: 0.25rem 1rem;
+    margin-top: 0.25rem;
+    width: fit-content;
+    height: 2rem;
+  
+}
+
+.stiky {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 50;
+}
+
+
+
+.stiky-img{
+    margin-left: 1rem;
+}
+
+.stiky-bdg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black1 {
+    background-color: black;
+    color: white;
+}
+
+.abhay {
+    margin-right: 1.8rem;
+}
+
+@media ( max-width: 1000px){
+    .hide {
+        display: none;
+    }
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.card1 {
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.card-container {
+    display:flex ;  
+    flex-wrap:wrap;
+         
+}
+
+.cardimg {
+    width: 100px;
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.cardtitle  {
+    background-color: #232323;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+.cardinformation {
+    background-color: #232323;
+    opacity: 0.8;
+    padding: 0.5rem;
+} 
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 500px;
+    height: 30px;
+    border-top: 1px solid white;
+    opacity: 0.8;
+}
+.music-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qw1{
+    width: 25%;
+}
+.player{
+     width: 50%;
+}
+
+.qw2 {
+    width: 25%;
+}
+
+.control12 {
+    height: 1rem;
+}
+
+.player-control{
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.player-control:hover{
+    opacity: 1;
+}
